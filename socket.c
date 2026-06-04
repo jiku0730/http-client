@@ -12,6 +12,7 @@ int main(void)
     return (1);
   }
   printf("success to make socket!\n");
+  printf("sockfd = %i\n", sockfd);
   close(sockfd);
   return (0);
 }
